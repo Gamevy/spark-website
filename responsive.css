@@ -1,0 +1,206 @@
+/* Media Queries */
+
+@media (min-width: 1170px) and (max-width: 1199px) {
+
+  #speakers .showcase .caption {
+    margin-left: 0;
+    height: 184px;
+    width: 255px;
+    margin-top: 15px;
+  }
+
+    #speakers .showcase h3 {
+      margin-top: 20px;
+    }
+    
+    #speakers .showcase p {
+      padding: 0 25px;
+    }
+    
+
+  #speakers .showcase video {
+    max-width: 255px;
+  }
+
+
+}
+
+
+/* Large Devices */
+@media only screen and (min-width: 1170px) {
+
+  .navbar .container {
+    width: 975px;
+  }
+
+  #logo h1 {
+    text-align: center !important;
+  }
+  
+  #benefits ul p {
+    width: 70%;
+  }
+
+}
+
+/* Medium devices */
+@media (min-width: 970px) and (max-width: 1169px) {
+
+  #logo h1 {
+    text-align: left;
+  }
+
+    #logo h1 .sub {
+      margin-left: 0;
+    }
+
+  #speakers .showcase .caption {
+    /*display: block;*/
+    margin-left: 0;
+    margin-top: 19px;
+    max-height: 175px;
+	  width: 245px;
+  }
+  
+  	#speakers .showcase h3 {
+  		margin-top: 20px;
+  	}
+    
+  	#speakers .showcase p {
+  		padding: 0 25px;
+  	}
+  	
+
+  #speakers .showcase video {
+    max-width: 245px;
+  }
+  
+  #benefits ul p {
+    width: 70%;
+  }
+	
+
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 969px) {
+  
+  #logo h1 {
+    text-align: left;
+  }
+
+    #logo h1 .sub {
+      margin-left: 0;
+    }
+
+  #speakers .showcase .caption {
+    height: 175px;
+    width: 245px;
+    margin-top: 39px;
+    margin-left: 0;
+  }
+
+  #speakers .showcase video {
+    max-width: 245px;
+  }
+
+  #contact .offer {
+    float: right;
+  }
+
+  #speakers .showcase {
+    padding-top: 20px;
+  }
+
+    #speakers .showcase h3 {
+      margin-top: 20px;
+    }
+
+    #speakers .showcase p {
+      padding: 0 25px;
+    }
+  
+  #benefits ul p {
+    width: 70%;
+  }
+
+
+
+}
+
+
+/* Small devices */
+@media (max-width: 768px) {
+
+  #logo h1 {
+    text-align: center;
+  }
+
+  #home .offer {
+    position: static;
+    margin-top: 0;
+    margin: 0 auto;
+  }
+
+  #spark-schedule .offer {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  #speakers .showcase .caption {
+    margin-top: 25px;
+    margin-left: 0;
+    width: 285px;
+    height: 205px;
+  }
+
+  #speakers .showcase video {
+  }
+
+  #spark-schedule .img-responsive {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  #contact .offer {
+    float: right;
+  }
+
+  #home .tagline {
+    padding-top: 65px; 
+  }
+
+  #spark-schedule .schedule-item:last-child {
+      padding-left: 15px; 
+      padding-right: 15px;
+    }
+
+  #speakers .showcase {
+    padding-top: 20px;
+    max-width: 284px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  #what-is-spark .workshop-topic-talks .details {
+    border: 0; 
+  }
+
+  #benefits ul h3 {
+    float: none;
+  }
+
+  #benefits ul p {
+    float: none;
+  }
+  
+  #what-is-spark .workshop-topic-talks .details ul li:last-child { 
+	display: block;
+	padding-bottom: 25px;
+  }
+  
+  #what-is-spark .workshop-topic-talks .stars {
+	display: none;
+  }
+
+}
