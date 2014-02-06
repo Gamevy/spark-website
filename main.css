@@ -261,17 +261,23 @@ a {
           line-height: 28px;
         }
 
-      #speakers .speak-at-spark {
-        float: none;
-        margin: 45px auto 0;
+      .offer-float-right div {
+        display: inline-block;
+        float: right;
       }
 
-        #speakers .speak-at-spark .gray-head {
-          margin-right: 15px;
-          width: 139px;
-          height: 139px;
-          background: url('assets/img/gray-head.png') no-repeat center center;
-        }
+      #speakers .below-speakers {
+        margin-top: 32px;
+      }
+
+      #speakers .speak-at-spark {
+        padding-top: 47px;
+      }
+
+      #speakers .speak-at-spark img {
+        padding-top: 19px;
+        padding-right: 8px;
+      }
 
         #speakers .speak-at-spark h4 {
           font-family: 'Oswald', Sans-serif;
@@ -286,7 +292,7 @@ a {
         }
 
       #speakers .spark-quote {
-        margin-top: 50px;
+        margin-top: 12px;
         text-align: center;
       }
 
@@ -618,6 +624,7 @@ footer {
 
 
 .offer {
+  display: inline-block;
   margin-bottom: 40px;
   padding: 25px 40px;
   background-color: #f4641c;
@@ -805,4 +812,10 @@ footer {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+/* Marek messing with the layout */
+
+.offer-row {
+  margin-top: 20px;
+  text-align: center;
+}
 
