@@ -680,6 +680,7 @@ footer {
     /*width: 98%;*/
     margin-bottom: -60px;
     position: relative;
+    overflow: hidden;
   }
 
 
@@ -698,11 +699,14 @@ footer {
     }
 
     hr.diag.down {
+      width: 150%;
+      margin-left: -25%;
       -moz-transform: rotate(2.5deg);  
            -o-transform: rotate(2.5deg);  
       -webkit-transform: rotate(2.5deg);  
           -ms-transform: rotate(2.5deg);  
               transform: rotate(2.5deg);  
+
                  /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',  
                           M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104); 
              -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')"; 
@@ -710,6 +714,8 @@ footer {
     }
 
     hr.diag.up {
+      width: 150%;
+      margin-left: -25%;
       -moz-transform: rotate(-2.5deg);  
            -o-transform: rotate(-2.5deg);  
       -webkit-transform: rotate(-2.5deg);  
