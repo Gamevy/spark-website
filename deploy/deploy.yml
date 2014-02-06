@@ -1,0 +1,12 @@
+---
+- name: Deploy the Spark The Change web site
+  hosts: web
+  gather_facts: false
+  remote_user: ansible
+  tasks:
+    - file: path=/var/www/spark-the-change state=directory
+            owner=ansible group=ansible mode=755 recurse=yes
+      sudo: yes
+    - name: Copy the files to the remote machine
+      unarchive: src=build.tar.gz dest=/var/www/spark-the-change/ owner=ansible
+                  group=ansible mode=755
