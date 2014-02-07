@@ -8,5 +8,5 @@
             owner=ansible group=ansible mode=755 recurse=yes
       sudo: yes
     - name: Copy the files to the remote machine
-      unarchive: src=build.tar.gz dest=/var/www/spark-the-change/ owner=ansible
+      unarchive: src=../artifacts/build.tar.gz dest=/var/www/spark-the-change/ owner=ansible
                   group=ansible mode=755
