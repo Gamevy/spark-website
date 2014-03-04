@@ -214,9 +214,9 @@ a {
           top: 0;
           background-color: rgba(0, 0, 0, 0.45);
           margin-left: 5px;
-          margin-top: 5px;
+          /* margin-top: 5px; */
           max-width: 284px;
-          height: 203px;
+          height: 213px;
           overflow: hidden;
           position: absolute;
           text-align: center;
