@@ -35,6 +35,7 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
   text-decoration: none;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
+  padding-right: 2px;
   /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
   -moz-font-feature-settings: "liga=1";
   -moz-font-feature-settings: "liga";
