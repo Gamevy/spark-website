@@ -203,7 +203,7 @@ a {
 
       #speakers .showcase {
         text-align: center;
-        min-height: 213px;
+        /*min-height: 213px;*/
         /*min-width: 284px;*/
         margin-top: 40px;
         position: relative;
@@ -213,52 +213,39 @@ a {
           display: none;
           top: 0;
           background-color: rgba(0, 0, 0, 0.45);
-          margin-left: 5px;
+          /* margin-left: 5px; */
           /* margin-top: 5px; */
-          max-width: 284px;
-          height: 213px;
+          max-width: 214px;
+          height: 160px;
           overflow: hidden;
           position: absolute;
           text-align: center;
         }
 
-        #speakers .showcase video {
+        #speakers .showcase video, img {
           margin: 0 auto;
-          max-width: 284px;
-          height: 213px;
+          max-width: 214px;
+          height: auto;
         }
 
         #speakers .showcase:hover > .caption {
           display: block;
         }
 
-
-      /*#speakers .showcase:first-child {
-        background: url('assets/img/showcase-1.jpg') no-repeat center center;
-      }
-
-      #speakers .showcase:nth-child(2) {
-        background: url('assets/img/showcase-2.jpg') no-repeat center center;
-      }
-
-      #speakers .showcase:last-child {
-        background: url('assets/img/showcase-3.jpg') no-repeat center center;
-      }*/
-
         #speakers .showcase h3 {
-          margin-top: 40px;
+          margin-top: 30px;
           font-family: 'Oswald', Sans-serif;
           font-weight: 300;
           color: #f4641c;
-          font-size: 33.8px;
+          font-size: 28.8px;
         }
 
         #speakers .showcase p {
           font-family: Verdana, Sans-serif;
-          font-size: 15.6px;
+          font-size: 12.6px;
           color: #fff;
-          padding: 0 40px;
-          line-height: 28px;
+          padding: 0 20px;
+          line-height: 22px;
         }
 
       .offer-float-right div {
