@@ -540,38 +540,38 @@ a {
       }
 
 
-  #contact {
+  #find-us {
     background-color: #000;
   } 
 
-    #contact h2 {
+    #find-us h2 {
       color: #f4641c;
       font-weight: 400;
     }  
 
-    #contact .details {
+    #find-us .details {
       color: #fff;
       margin-top: 30px;
     } 
 
-    #contact .details a {
+    #find-us .details a {
       font-family: 'Oswald', Sans-serif;
       font-size: 31.2px;
       font-weight: 400;
       color: #f4641c;
     }
 
-    #contact .offer {
+    #find-us .offer {
       margin-top: -20px;
     }
 
-      #contact .offer h5 {
+      #find-us .offer h5 {
         margin-top: 20px;
         margin-bottom: 30px;
         font-size: 38.5px;
       }
 
-      #contact .offer .price {
+      #find-us .offer .price {
         margin-top: 20px;
       }
 
@@ -579,7 +579,7 @@ a {
 
 /* Footer */
 footer {
-  min-height: 120px;
+  min-height: 200px;
   font-family: inherit;
   font-size: 14px;
   line-height: 1.6;
