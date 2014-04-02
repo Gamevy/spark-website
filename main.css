@@ -212,11 +212,11 @@ a {
         #speakers .showcase .caption {
           display: none;
           top: 0;
-          background-color: rgba(0, 0, 0, 0.45);
+          background-color: rgba(0, 0, 0, 0.70);
           /* margin-left: 5px; */
           /* margin-top: 5px; */
           max-width: 214px;
-          height: 160px;
+          height: 161px;
           overflow: hidden;
           position: absolute;
           text-align: center;
