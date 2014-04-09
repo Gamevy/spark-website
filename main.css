@@ -51,7 +51,7 @@ a {
   background: #e5e5e5;
 }
 
-  
+
 
 .navbar .navbar-nav > li > a, .navbar-brand {
   color: #05344c;
@@ -59,7 +59,7 @@ a {
   font-size: 14px;
   letter-spacing: 0.05em;
 }
-  
+
   .navbar-nav > li.active > a {
     background-color: #EEEEEE;
     text-decoration: none;
@@ -82,7 +82,7 @@ a {
   #home {
     background-color: #f4641c;
     padding-bottom: 40px;
-    
+
   }
 
     /* Logo */
@@ -153,7 +153,7 @@ a {
         color: #fff;
       }
 
-        #home .tagline + div.row > div { 
+        #home .tagline + div.row > div {
           letter-spacing: 0.05em;
         }
 
@@ -222,7 +222,7 @@ a {
           text-align: center;
         }
 
-        #speakers .showcase video, img {
+        #speakers .showcase video, .index img {
           margin: 0 auto;
           max-width: 214px;
           height: auto;
@@ -425,14 +425,14 @@ a {
         /*width: 50%;*/
         /*float: left;*/
       }
-      
+
       #spark-schedule .schedule-item:first-child {
         padding-left: 15px;
         padding-right: 15px;
       }
-      
+
       #spark-schedule .schedule-item:last-child {
-        padding-left: 0px; 
+        padding-left: 0px;
         padding-right: 30px;
       }
 
@@ -529,17 +529,17 @@ a {
 
   #find-us {
     background-color: #000;
-  } 
+  }
 
     #find-us h2 {
       color: #f4641c;
       font-weight: 400;
-    }  
+    }
 
     #find-us .details {
       color: #fff;
       margin-top: 30px;
-    } 
+    }
 
     #find-us .details a {
       font-family: 'Oswald', Sans-serif;
@@ -627,7 +627,7 @@ footer .sponsors a {
 
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
   .offer h5 {
@@ -665,7 +665,7 @@ footer .sponsors a {
       font-size: 25px;
     }
 
-  
+
   /* Diagnonal separators */
   div.sep {
     /*display: none;*/
@@ -693,29 +693,29 @@ footer .sponsors a {
     hr.diag.down {
       width: 150%;
       margin-left: -25%;
-      -moz-transform: rotate(2.5deg);  
-           -o-transform: rotate(2.5deg);  
-      -webkit-transform: rotate(2.5deg);  
-          -ms-transform: rotate(2.5deg);  
-              transform: rotate(2.5deg);  
+      -moz-transform: rotate(2.5deg);
+           -o-transform: rotate(2.5deg);
+      -webkit-transform: rotate(2.5deg);
+          -ms-transform: rotate(2.5deg);
+              transform: rotate(2.5deg);
 
-                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',  
-                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104); 
-             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')"; 
+                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104);
+             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
                    zoom: 1;*/
     }
 
     hr.diag.up {
       width: 150%;
       margin-left: -25%;
-      -moz-transform: rotate(-2.5deg);  
-           -o-transform: rotate(-2.5deg);  
-      -webkit-transform: rotate(-2.5deg);  
-          -ms-transform: rotate(-2.5deg);  
-              transform: rotate(-2.5deg);  
-                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',  
-                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104); 
-             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')"; 
+      -moz-transform: rotate(-2.5deg);
+           -o-transform: rotate(-2.5deg);
+      -webkit-transform: rotate(-2.5deg);
+          -ms-transform: rotate(-2.5deg);
+              transform: rotate(-2.5deg);
+                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104);
+             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
                    zoom: 1;*/
     }
 
@@ -731,7 +731,7 @@ footer .sponsors a {
 
   hr.diag:before, hr.diag:before {
     right: 100%;
-  } 
+  }
 
   hr.diag:after, hr.diag:after {
     left: 100%;
@@ -745,7 +745,7 @@ footer .sponsors a {
     hr.diag.orange:before, hr.diag.orange:before,
     hr.diag.orange:after, hr.diag.orange:after {
       background-color: #F4641C;
-    } 
+    }
 
   hr.diag.white {
     background-color: #fff;
@@ -763,7 +763,7 @@ footer .sponsors a {
     hr.diag.black:before, hr.diag.black:before,
     hr.diag.black:after, hr.diag.black:after {
       background-color: #000;
-    }   
+    }
 
   hr.diag.lightgray {
     background-color: #E5E5E5;
@@ -772,7 +772,7 @@ footer .sponsors a {
     hr.diag.lightgray:before, hr.diag.lightgray:before,
     hr.diag.lightgray:after, hr.diag.lightgray:after {
       background-color: #E5E5E5;
-    } 
+    }
 
   hr.diag.darkblue {
     background-color: #05344c;
@@ -781,7 +781,7 @@ footer .sponsors a {
     hr.diag.darkblue:before, hr.diag.darkblue:before,
     hr.diag.darkblue:after, hr.diag.darkblue:after {
       background-color: #05344c;
-    } 
+    }
 
   #contact + .sep {
   }
@@ -817,3 +817,205 @@ footer .sponsors a {
   text-align: center;
 }
 
+
+.speaker .header {
+	width: 1000px;
+	margin-left: 13%;
+	margin-right: 20%;
+}
+
+.speaker .header img {
+	width: 1000px;
+	height: 442px;
+	position:relative;
+}
+
+.speaker .header .title-and-booklet {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+
+.speaker .header h1 {
+	width: 500px;
+	color: #f15a24;
+	font-size: 4em;
+	line-height: 1.2em;
+	text-align: center;
+	font-family: 'Oswald', Sans-serif;
+}
+
+.speaker .header .booklet {
+	position: relative;
+	left: 120px;
+}
+
+.booklet {
+	width: 260px;
+	height: 260px;
+	background-color: #05344c;
+	border-radius: 50%;
+}
+
+.booklet a {
+	position: relative;
+	top: 65px;
+	left: 30px;
+	color: #545454;
+	text-transform: uppercase;
+	background: white;
+	font-size: 2.7em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Oswald', Sans-serif;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+}
+
+.booklet.full a {
+	width: 150px;
+	display: inline-block;
+	top: 75px;
+	left: 60px;
+}
+
+.booklet a:hover {
+  text-decoration: none;
+}
+
+.booklet div {
+	color: white;
+	position: relative;
+	top: 85px;
+	left: 5px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.speaker .description {
+	margin-top: 4em;
+	font-size: 1.7em;
+}
+
+.speaker .description p:first-of-type:first-letter {
+	font-weight: 500;
+	color: #f15a24;
+	font-size: 2em;
+	line-height: 1.4em;
+}
+
+.speaker .description p {
+	color: black;
+	line-height: 1.4em;
+	margin-top: 2em;
+	margin-left: 23%;
+	margin-right: 22%;
+	width: 55%;
+}
+
+.speaker .description ul {
+	width: 50%;
+	list-style: none;
+	margin-left: 25%;
+	margin-right: 20%;
+	font-family: 'Oswald', Sans-serif;
+	font-weight: 200;
+	font-size: 1.8em;
+	line-height: 1.4em;
+}
+
+.speaker .description li {
+	padding-left: 1em;
+	text-indent: -.7em;
+}
+
+.speaker .description li:before {
+	font-size: 1.5em;
+	content: "• ";
+	color: #f15a24;
+	line-height: 1.4em;
+}
+
+.speaker .booking-info > div {
+	font-size: 1.5em;
+	margin-left: 20%;
+	width: 42%;
+	margin-top: 3em;
+}
+
+.speaker .booking-info .book-now {
+	position: relative;
+	top: -150px;
+	right: 20%;
+	float: right;
+	width: 180px;
+	text-align: center;
+}
+
+.speaker .booking-info .book-now.full {
+	top: -130px;
+	right: 16%;
+	width: 250px;
+}
+
+.speaker .booking-info .book-now a:hover {
+	text-decoration: none;
+}
+
+.speaker .booking-info .book-now a {
+	font-family: 'Oswald', Sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: black;
+}
+
+.speaker .booking-info .book-now a.button {
+	margin-top: 5px;
+	background: #f15a24;
+	border-radius: 10px;
+	color: white;
+	padding: 4px 10px 4px 10px;
+	font-size: 1.7em;
+	line-height: 1.8em;
+}
+
+.speaker .about {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5em;
+	background: black;
+	padding-bottom: 5em;
+}
+
+.speaker .about h2,
+.speaker .about p {
+	text-align: justify;
+	margin-left: 10%;
+	padding-top: 1.5em;
+}
+
+
+.speaker .about h2 {
+	font-family: 'Oswald', Sans-serif;
+	font-size: 3em;
+	color: #f15a24;
+}
+
+.speaker .about p {
+	font-size: 1.7em;
+	color: white;
+}
+
+.speaker .about img {
+	width: 190px;
+	height: 160px;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+
+@media (min-width: 1000px) {
+	.speaker .about img {
+		margin-top: 200px;
+	}
+}
