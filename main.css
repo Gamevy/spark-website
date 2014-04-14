@@ -118,7 +118,7 @@ a {
     #home .offer {
       position: absolute;
       margin-top: -95px;
-      margin-right: 53px;
+      margin-right: 10px;
       background-color: #05344c;
       top: 0;
       right: 0;
@@ -228,7 +228,7 @@ a {
           height: auto;
         }
 
-        #speakers .showcase:hover > .caption {
+        #speakers .showcase:hover a > .caption {
           display: block;
         }
 
