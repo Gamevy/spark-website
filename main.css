@@ -406,6 +406,14 @@ a {
 
   }
 
+  #spark-schedule h2 {
+    margin-bottom: 1.5em;
+  }
+
+  .schedules {
+    margin-left: 20px;
+  }
+
     #spark-schedule .side-label {
       font-family: 'Oswald', Sans-serif;
       color: #fff;
@@ -427,13 +435,11 @@ a {
       }
 
       #spark-schedule .schedule-item:first-child {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 0px;
       }
 
       #spark-schedule .schedule-item:last-child {
         padding-left: 0px;
-        padding-right: 30px;
       }
 
         #spark-schedule h4 {
