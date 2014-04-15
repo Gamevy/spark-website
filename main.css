@@ -443,11 +443,7 @@ a {
       }
 
         #spark-schedule h4 {
-          font-family: 'Oswald', Sans-serif;
-          font-weight: 300;
-          text-align: center;
           color: #f4641c;
-          background-color: #333;
         }
 
         #spark-schedule ul {
