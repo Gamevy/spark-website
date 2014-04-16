@@ -827,21 +827,26 @@ footer .sponsors a {
 
 
 .speaker .header {
-	width: 1000px;
-	margin-left: 13%;
-	margin-right: 20%;
+	width: 100%;
 }
 
 .speaker .header img {
-	width: 1000px;
+	width: 100%;
 	height: 442px;
-	position:relative;
 }
 
 .speaker .header .title-and-booklet {
-	position: absolute;
-	top: 20px;
-	right: 50px;
+	/* position: absolute; */
+	/* top: 20px; */
+	/* right: 50px; */
+}
+
+@media (min-width: 900px) {
+	.speaker .header .title-and-booklet {
+		position: absolute;
+		top: 20px;
+		right: 50px;
+	}
 }
 
 .speaker .header h1 {
@@ -988,19 +993,16 @@ footer .sponsors a {
 }
 
 .speaker .about {
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 5em;
+	/* margin-left: 15%; */
+	/* margin-right: 15%; */
 	background: black;
-	padding-bottom: 5em;
+	padding-bottom: 4em;
 }
 
 .speaker .about h2,
 .speaker .about p {
-	text-align: justify;
 	margin-left: 10%;
-	padding-top: 1.5em;
+	padding-top: 1em;
 }
 
 
@@ -1015,15 +1017,13 @@ footer .sponsors a {
 	color: white;
 }
 
-.speaker .about img {
-	width: 190px;
-	height: 160px;
-	margin-left: 10%;
-	margin-top: 30px;
+.speaker img {
+	width: 143px;
+	height: 118px;
 }
 
-@media (min-width: 1000px) {
-	.speaker .about img {
-		margin-top: 200px;
+@media (min-width: 900px) {
+	.speaker .img {
+		margin-top: 12em;
 	}
 }
