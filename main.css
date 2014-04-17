@@ -220,7 +220,7 @@ a {
           background-color: rgba(0, 0, 0, 0.70);
           /* margin-left: 5px; */
           /* margin-top: 5px; */
-          max-width: 214px;
+          width: 214px;
           height: 161px;
           overflow: hidden;
           position: absolute;
