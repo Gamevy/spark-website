@@ -1030,3 +1030,9 @@ img.circular {
   -webkit-border-radius: 50%;
   border: 8px solid #FBF3E6;
 }
+
+h3.location {
+  text-align:center;
+  color: white;
+  font-size: 3em;  
+}
