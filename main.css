@@ -1022,3 +1022,11 @@ footer .sponsors a {
 		margin-top: 12em;
 	}
 }
+
+img.circular {
+  max-width: 360px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 8px solid #FBF3E6;
+}
