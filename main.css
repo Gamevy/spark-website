@@ -365,7 +365,7 @@ a {
             #what-is-spark .workshop-topic-talks .details ul {
               list-style-type: none;
               font-size: 18px;
-              color: #05344c;
+              color: #05354d;
               padding-left: 0;
             }
 
@@ -508,10 +508,23 @@ a {
 	margin-bottom: 50px;
 }
 
+	.programmetable p:last-child{
+		margin-bottom:0px !important;	
+	}
+
+	.programmetable a{
+		text-decoration: underline;
+	}
+	
+	.programmetable a:hover{
+		color: #05354d;
+	}
+	
 	.programmetable td {
 		border-right: 1px solid #CCC;
 		padding: 10px;
 		color:  #05354d;
+		vertical-align: top;
 	}
 
 		.programmetable td:first-child {
@@ -529,40 +542,86 @@ a {
 			border-right: none;
 		}
 
-.programmetable tr.break td{
-	text-align: center;
-	font-style: italic;
-	background-color:#ffd5c1;
-}
-
-	.programmetable tr.break td:first-child{
-		background-color:#f4641c;
-		font-style: normal;
+	.programmetable tr.break td{
+		text-align: center;
+		font-style: italic;
+		background-color:#ffd5c1;
+	}
+	
+		.programmetable tr.break td:first-child{
+			background-color:#f4641c;
+			font-style: normal;
+		}
+	
+	.programmetable tr.alt td{
+		background-color: #E5E5E5;
+	}
+	
+		.programmetable tr.alt td:first-child{
+			background-color: #d75311;
+		}
+	
+	.programmetable tr.altbreak td{
+		text-align: center;
+		font-style: italic;
+		background-color:#ffd5c1;
+	}
+	
+		.programmetable tr.altbreak td:first-child{
+			background-color:#d75311;
+			font-style: normal;
+		}
+	
+	.keynote {
+		text-align: center;
+		font-weight: 600;
+	}
+	
+	p.sessiontype{
+		font-size: 11px;
+		font-weight:600;
+		letter-spacing: .5px;
+		text-transform: uppercase;
+		line-height: 1.25em;
+		color:#555;
+		margin-bottom: 10px;
+	}
+	
+	p.sessiontitle{
+		font-family: 'Oswald', sans-serif;
+		font-weight:400;
+		font-size: 21px;
+		margin-bottom: 10px;
+	}
+	
+	p.speakername{
+		font-weight:300;
+		font-style: italic;
+		line-height: 1.25em;
+	}
+	
+	.programmetable p.buttonwrap{
+		    margin-bottom: 10px !important;
 	}
 
-.programmetable tr.alt td{
-	background-color: #E5E5E5;
-}
-
-	.programmetable tr.alt td:first-child{
-		background-color: #d75311;
+	.programmetable a.button{
+		font-family: 'Oswald', Sans-serif;
+	    font-weight: 300;
+	    text-transform: uppercase;
+	    text-decoration: underline;
+	    background-color: #f4641c;
+	    color: #FFF;
+	    font-size: 14px;
+	    padding:8px;
+	    border-radius: 6px;
+	    -moz-border-radius: 6px;
+	    -webkit-border-radius: 6px;
 	}
-
-.programmetable tr.altbreak td{
-	text-align: center;
-	font-style: italic;
-	background-color:#ffd5c1;
-}
-
-	.programmetable tr.altbreak td:first-child{
+	
+	.programmetable a.button:hover{
 		background-color:#d75311;
-		font-style: normal;
 	}
-
-.keynote {
-	text-align: center;
-	font-weight: 600;
-}
+	
 
   /* Why Should You Go */
   #benefits {
