@@ -186,8 +186,13 @@ a {
 
       #home .about {
         font-family: Verdana, Sans-serif;
-        font-size: 20px;
         color: #05344c;
+      }
+      
+      #home .about p {
+       font-size: 1.25em;
+       line-height: 1.75em;
+       margin: 0 0 50px 0;
       }
 
 
@@ -974,7 +979,6 @@ footer .sponsors a {
   text-align: center;
 }
 
-
 .speaker .header {
 	width: 100%;
 }
@@ -993,19 +997,24 @@ footer .sponsors a {
 	}
 }
 
+.speaker .header .title-and-booklet{
+	width: 50%;
+}
+
 .speaker .header h1 {
-	width: 500px;
 	color: #f15a24;
 	font-size: 4em;
 	line-height: 1.2em;
 	text-align: center;
 	font-family: 'Oswald', Sans-serif;
+	margin:.5em 0;
 }
 
 
 .speaker .header .booklet {
-	position: relative;
-	left: 120px;
+/* 	position: relative; */
+/* 	left: 120px; */
+	margin: 0 auto;
 }
 
 .booklet {
@@ -1013,20 +1022,20 @@ footer .sponsors a {
 	height: 260px;
 	background-color: #05344c;
 	border-radius: 50%;
+	text-align: center;
 }
 
 .booklet a {
 	position: relative;
-	top: 65px;
-	left: 30px;
-	color: #545454;
+	top:90px;
+	color: #FFF;
 	text-transform: uppercase;
-	background: white;
-	font-size: 2.7em;
+	background:#f15a24;
+	font-size: 2.5em;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Oswald', Sans-serif;
-	padding: 5px 10px 5px 10px;
+	padding: 8px 10px;
 	border-radius: 5px;
 }
 
@@ -1039,15 +1048,19 @@ footer .sponsors a {
 
 .booklet a:hover {
   text-decoration: none;
+  color:#f15a24;
+  background: #fff;
+  
 }
 
 .booklet div {
-	color: white;
 	position: relative;
-	top: 85px;
-	left: 5px;
-	font-size: 2em;
+	top: 110px;
+	color: white;
+	font-size: 1.25em;
 	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
 }
 
 .speaker .description {
@@ -1069,7 +1082,6 @@ footer .sponsors a {
 	margin-left: 23%;
 	margin-right: 22%;
 	width: 55%;
-	overflow: auto;
 }
 
 .speaker .description p.rightindent{
@@ -1100,8 +1112,7 @@ footer .sponsors a {
 }
 
 .speaker div.booking-info{
-	padding-top:5em;
-	padding-bottom:5em;
+	padding:5em 22%;
 	background-color: #F4641C;
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
@@ -1111,17 +1122,17 @@ footer .sponsors a {
 
 .speaker .booking-info > div {
 	font-size: 1.5em;
-	margin-left: 20%;
-	width: 42%;
+	display: inline-block;
+	width: 69%;
 }
 
 .speaker .booking-info .book-now {
 	position: relative;
-	top: -80px;
-	right: 20%;
-	float: right;
-	width: 180px;
+	top: -35px;
+	right:0;
+	width: 30%;
 	text-align: center;
+	float:right;
 }
 
 .speaker .booking-info .book-now.full {
@@ -1153,30 +1164,27 @@ footer .sponsors a {
 }
 
 .speaker .about {
-	/* margin-left: 15%; */
-	/* margin-right: 15%; */
 	background: #05344c;
-	padding-bottom: 4em;
+	padding:2em 0;
 }
 
 .speaker .about h2{
-	margin-left:10%;
-}
-.speaker .about p {
-	margin-left: 10%;
-	margin-top: 1.75em;
-}
-
-
-.speaker .about h2 {
 	font-family: 'Oswald', Sans-serif;
 	font-size: 3em;
 	color: #f15a24;
+	margin-left: 23%;
+	margin-right: 22%;
+	width: 55%;
+
 }
 
 .speaker .about p {
 	font-size: 1.25em;
 	line-height: 1.75em;
+	margin-top: 2em;
+	margin-left: 23%;
+	margin-right: 22%;
+	width: 55%;
 	color: white;
 }
 
