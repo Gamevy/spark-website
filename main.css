@@ -1096,7 +1096,7 @@ footer .sponsors a {
 }
 
 .speaker .description p.rightindent{
-	padding-right: 10%
+	padding-right: 13%
 }
 
 .speaker .description ul {
@@ -1104,6 +1104,7 @@ footer .sponsors a {
 	list-style: none;
 	margin-left: 25%;
 	margin-right: 20%;
+	margin-top:30px;
 	font-family: 'Oswald', Sans-serif;
 	font-weight: 200;
 	font-size: 1.6em;
