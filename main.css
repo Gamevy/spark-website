@@ -603,10 +603,21 @@ a {
 		font-weight:300;
 		font-style: italic;
 		line-height: 1.25em;
+		margin-bottom: 10px;
 	}
 	
+	p.speakeraff{
+		font-size: 11px;
+		font-weight:400;
+		letter-spacing: .5px;
+		text-transform: uppercase;
+		line-height: 1.25em;
+		color:#555;
+		margin:-5px 0 10px 0;
+		}
+	
 	.programmetable p.buttonwrap{
-		    margin-bottom: 10px !important;
+		    margin: 20px 0 !important;
 	}
 
 	.programmetable a.button{
