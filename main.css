@@ -729,6 +729,18 @@ a {
         margin-top: 20px;
       }
 
+/* Programme */ 
+
+#tickets h3 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#tickets p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
 /*** Main Content end ***/
 
 
