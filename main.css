@@ -1212,9 +1212,9 @@ footer .sponsors a {
 	color: white;
 }
 
-.speaker img {
-	width: 143px;
-	height: 118px;
+.about img {
+	max-width: 300px;
+	height: auto;
 }
 
 @media (min-width: 900px) {
