@@ -741,6 +741,21 @@ a {
 	line-height: 1.5;
 }
 
+/* Robot */
+  #robot {
+    background-color: #05344c;
+  }
+  
+  #robot h2{
+      color: #f4641c;
+  }
+
+  #robot p{
+	color:#fff;
+	font-size: 18px;	 
+ }
+
+
 /*** Main Content end ***/
 
 
