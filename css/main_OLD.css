@@ -1,0 +1,1361 @@
+/* Main Stylesheet */
+
+/* 01 :: Common Styles */
+body {
+  font-family: Verdana, Sans-serif, Tahoma;
+}
+
+article {
+  padding: 20px 0;
+  padding-bottom: 40px;
+}
+
+
+
+a {
+  /* CSS3 */
+  -o-transition:color .2s ease-out, background .5s ease-in;
+  -ms-transition:color .2s ease-out, background .5s ease-in;
+  -moz-transition:color .2s ease-out, background .5s ease-in;
+  -webkit-transition:color .2s ease-out, background .5s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background .5s ease-in;
+}
+
+/* 02 :: Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', Sans-serif;
+    color: #05344c;
+    font-weight: 700;
+}
+
+p.large{
+	font-size: 1.25rem;
+	line-height: 2rem;
+	margin: 2rem 0;
+}
+
+p.medium{
+	font-size: 1.15rem;
+	line-height: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.roman {
+	font-weight: 400;
+}
+
+.thin {
+	font-weight: 300;
+}
+
+/* 03 :: Colours */
+
+.orange{
+	color:#F4641C;
+}
+
+.orange_bg{
+	background-color: #F4641C;
+}
+
+.blue{
+	color:#05344c
+}
+
+.blue_bg{
+	background-color:#05344c
+}
+
+.black{
+	color:#000
+}
+
+.black_bg{
+	background-color:#000
+}
+
+.white{
+	color: #fff;
+}
+
+.white_bg{
+	background-color: #fff;
+}
+
+.lightgrey{
+	color:#f2f2f2;
+}
+
+.lightgrey_bg{
+	background-color:#f2f2f2;
+}
+
+
+/* Structure & Grid */
+
+section{
+	padding: 3rem 0;
+}
+
+section .row{
+	margin-bottom: 2rem;
+}
+
+section .row:last-child{
+	margin-bottom: 0;
+}
+
+/* Home */
+
+#home h1{
+	font-size: 5.5rem;
+	font-weight: 400;
+	margin-left: 1rem;
+}
+
+#home h1 sub {
+	font-family:'Avenir LT W01 55 Roman';
+	font-size: 4rem;
+	margin-left: -1rem;
+	top: 3px;
+}
+
+#home h1 .sub {
+	display: block;
+	font-family:'Avenir LT W01 55 Roman';
+	text-transform: uppercase;
+	font-size: 1.65rem;
+	letter-spacing: 0.15em;
+	margin-top: -2.5rem;
+	margin-left: -1rem;
+}
+      
+#banner {
+  border: 0;
+}
+
+.banner .date-and-location {
+  position: absolute;
+  top: -80px;
+}
+
+
+/* Navbar - Main Navigation */
+#nav {
+	background: #e5e5e5;
+	padding: 0;
+	top:0;
+}
+
+#nav [data-magellan-expedition-clone] { 
+	height: 3.5rem;
+}
+
+#nav [data-magellan-expedition] {
+  background: #e5e5e5;
+  color: #05344c;
+  letter-spacing: 0.05em;
+  padding: 0;
+}
+
+.sub-nav{
+ padding: 1rem 1rem 0.95rem 0rem;
+ margin: 0rem;	
+}
+  .sub-nav dt,
+  .sub-nav dd,
+  .sub-nav li {
+    float: left;
+    display: inline;
+    margin-left: 0rem;
+    margin-bottom: 0.625rem;
+	font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: .9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #05344c !important; }
+    .sub-nav dt a,
+    .sub-nav dd a,
+    .sub-nav li a {
+      text-decoration: none;
+      color: #05344c;
+      padding: 1rem 1rem !important; }
+      .sub-nav dt a:hover,
+      .sub-nav dd a:hover,
+      .sub-nav li a:hover {
+        color: #333;
+        background: #EFEFEF; }
+    .sub-nav dt.active a,
+    .sub-nav dd.active a,
+    .sub-nav li.active a {
+      border-radius: 0px;
+      font-weight: normal;
+      background: #EFEFEF;
+      padding: 1rem 1rem !important;
+      cursor: default;
+      color: #05344c; }
+      .sub-nav dt.active a:hover,
+      .sub-nav dd.active a:hover,
+      .sub-nav li.active a:hover {
+        background: #EFEFEF; }
+
+.navbar-toggle {
+  border-color: #05344c;
+}
+
+  .navbar-toggle .icon-bar {
+    background-color: #05344c;
+  }
+
+/*** Main Content ***/
+#main-content {
+  position: relative;
+}
+
+    #home .offer {
+      position: absolute;
+      margin-top: -95px;
+      margin-right: 10px;
+      background-color: #05344c;
+      top: 0;
+      right: 0;
+      z-index: 1000000;
+    }
+
+      #home .offer h5 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+
+      #home .offer .price {
+        margin-top: 15px;
+      }
+
+      #home .tagline {
+        background: url('assets/img/banner.jpg') center center no-repeat;
+        min-height: 262px;
+        font-family: 'Oswald', Sans-serif;
+        font-size: 50.6px;
+        font-weight: 700;
+        color: #f2f2f2;
+        letter-spacing: -0.025em;
+        padding-top: 75px;
+      }
+
+      #home .subjects {
+        margin-top: 35px;
+        margin-bottom: 48px;
+        font-family: 'Oswald', Sans-serif;
+        font-size: 19px;
+        color: #fff;
+      }
+
+        #home .subjects > div {
+          letter-spacing: 0.05em;
+        }
+
+      #home .date-and-location {
+        margin-bottom: 48px;
+        font-family: Verdana, Sans-serif;
+        font-size: 19px;
+        color: #f2f2f2;
+      }
+
+        #home .date-and-location sub {
+          margin-left: 10px;
+          margin-right: 10px;
+          top: 5px;
+          font-family:'Avenir LT W01 55 Roman';
+          font-size: 44px;
+          color: #05344c;
+        }
+
+          #home .date-and-location sub > img {
+            width: 90%;
+            max-width: 18px;
+            max-height: 18px;
+          }
+
+      #home .about {
+        font-family: Verdana, Sans-serif;
+        color: #05344c;
+      }
+      
+      #home .about p {
+       font-size: 1.25em;
+       line-height: 1.75em;
+       margin: 0 0 50px 0;
+      }
+
+
+
+
+
+  /* Speakers */
+  #speakers {
+    background-color: #e5e5e5;
+  }
+
+    #speakers h2.heading {
+      font-family: 'Oswald', Sans-serif;
+      font-size: 38px;
+      color: #05344c;
+      font-weight: 700;
+    }
+
+      #speakers .showcase {
+        text-align: center;
+        /*min-height: 213px;*/
+        /*min-width: 284px;*/
+        margin-top: 40px;
+        position: relative;
+      }
+
+        #speakers .showcase .caption {
+          display: none;
+          top: 0;
+          background-color: rgba(0, 0, 0, 0.70);
+          /* margin-left: 5px; */
+          /* margin-top: 5px; */
+          width: 214px;
+          height: 161px;
+          overflow: hidden;
+          position: absolute;
+          text-align: center;
+        }
+
+        #speakers .showcase video, .index img {
+          margin: 0 auto;
+          max-width: 214px;
+          height: auto;
+        }
+
+        #speakers .showcase:hover a > .caption {
+          display: block;
+        }
+
+        #speakers .showcase h3 {
+          margin-top: 30px;
+          font-family: 'Oswald', Sans-serif;
+          font-weight: 300;
+          color: #f4641c;
+          font-size: 28.8px;
+        }
+
+        #speakers .showcase p {
+          font-family: Verdana, Sans-serif;
+          font-size: 12.6px;
+          color: #fff;
+          padding: 0 20px;
+          line-height: 22px;
+        }
+
+      .offer-float-right div {
+        display: inline-block;
+        float: right;
+      }
+
+      #speakers .below-speakers {
+        margin-top: 32px;
+      }
+
+      #speakers .speak-at-spark {
+        padding-top: 47px;
+      }
+
+      #speakers .speak-at-spark img {
+        padding-top: 19px;
+        padding-right: 8px;
+      }
+
+        #speakers .speak-at-spark h4 {
+          font-family: 'Oswald', Sans-serif;
+          font-weight: 400;
+          color: #05344c;
+          font-size: 19px;
+        }
+
+        #speakers .speak-at-spark p {
+          color: #444342;
+          line-height: 26px;
+        }
+
+      #speakers .spark-quote {
+        margin-top: 12px;
+        text-align: center;
+      }
+
+        #speakers .spark-quote h3 {
+          font-family: 'Oswald', Sans-serif;
+          font-weight: 400;
+          font-size: 26.6px;
+          color: #f4641c;
+        }
+
+        #speakers .spark-quote p {
+          font-family: 'Oswald', Sans-serif;
+          font-weight: 300;
+          font-size: 14px;
+          color: #000;
+        }
+
+
+
+
+  /* What Is Spark */
+  #what-is-spark {
+    background-color: #05344c;
+    color: #f2f2f2;
+    padding-top: 70px;
+  }
+
+    #what-is-spark .introductory h2.heading {
+      color: #f4641c;
+      font-weight: 400;
+    }
+
+      #what-is-spark .introductory img {
+        margin-top: 30px;
+      }
+
+
+    #what-is-spark .workshop-topic-talks {
+      color: #05344c;
+      margin-top: 35px;
+    }
+
+
+      #what-is-spark .workshop-topic-talks > div {
+        background-color: #f2f2f2;
+        padding-top: 20px;
+      }
+
+        #what-is-spark .workshop-topic-talks h4 {
+          margin-bottom: 40px;
+          font-family: 'Oswald', Sans-serif;
+          font-size: 22.2px;
+          color: #05344c;
+          font-weight: 400;
+        }
+
+          #what-is-spark .workshop-topic-talks .details {
+            text-align: center;
+            border-right: 1px solid #f4641c;
+            margin-bottom: 25px;
+            padding: 0 25px;
+            padding-bottom: 0px;
+          }
+
+          #what-is-spark .workshop-topic-talks .details:last-child {
+            border: 0;
+          }
+
+            #what-is-spark .workshop-topic-talks .details h3 {
+              margin-top: -10px;
+              padding: 0 30px;
+              font-family: 'Oswald', Sans-serif;
+              font-size: 31px;
+              color: #f4641c;
+              font-weight: 400;
+            }
+
+            #what-is-spark .workshop-topic-talks .details ul {
+              list-style-type: none;
+              font-size: 18px;
+              color: #05354d;
+              padding-left: 0;
+            }
+
+            #what-is-spark .workshop-topic-talks .details ul li {
+              padding: 15px 0;
+            }
+
+            #what-is-spark .workshop-topic-talks .details ul li:last-child {
+              padding-bottom: 0;
+			  display: none;
+            }
+
+            /*#what-is-spark .workshop-topic-talks .details ul li:last-child {
+              color: #f4641c;
+              font-family:'Avenir LT W01 55 Roman';
+              font-size: 44.5px;
+            }*/
+
+            #what-is-spark .workshop-topic-talks .stars {
+              padding-bottom: 25px;
+            }
+
+
+  /* Who Is Spark For? */
+  #who-is-spark-for {
+    background-color: #05344c;
+    color: #f2f2f2;
+    padding-top: 0px;
+  }
+
+    #who-is-spark-for h2 {
+      color: #f4641c;
+      font-weight: 400;
+    }
+
+    #who-is-spark-for .introductory img  {
+      margin-top: 25px;
+    }
+
+
+  /* Schedules */
+  #spark-schedule {
+
+  }
+
+  #spark-schedule h2 {
+    margin-bottom: 1.5em;
+  }
+
+  .schedules {
+    margin-left: 20px;
+  }
+
+    #spark-schedule .side-label {
+      font-family: 'Oswald', Sans-serif;
+      color: #fff;
+      /*background-color: #f4641c;*/
+      font-weight: 400;
+      font-size: 45px;
+      padding-left: 30px;
+      padding-right: 0;
+    }
+
+      #spark-schedule .side-label p {
+        margin-right: 10px;
+        height: 120px;
+      }
+
+      #spark-schedule .schedule-item {
+        /*width: 50%;*/
+        /*float: left;*/
+      }
+
+      #spark-schedule .schedule-item:first-child {
+        padding-right: 0px;
+      }
+
+      #spark-schedule .schedule-item:last-child {
+        padding-left: 0px;
+      }
+
+        #spark-schedule h4 {
+          color: #f4641c;
+          text-align: center;
+
+        }
+
+        #spark-schedule ul {
+          padding-left: 0;
+          list-style-type: none;
+          margin-top: -7px;
+        }
+
+        #spark-schedule ul li {
+          margin-top: 6.5px;
+          padding: 20px 15px;
+          background-color: #333;
+          color: #f2f2f2;
+          min-height: 100px;
+        }
+
+        #spark-schedule ul li:first-child {
+          padding: 1px 0px;
+          min-height: 56px;
+        }
+
+        #spark-schedule ul li.sp {
+          padding-top: 5px;
+          padding-bottom: 0px;
+        }
+
+/* Programme */
+
+#programme{
+	padding-top: 36px;
+}
+
+	#programme .row{
+		margin-top: 34px;
+		background-color: none;
+	}
+	
+		#programme .row h2, h3{
+		  font-family: 'Oswald', Sans-serif;
+		  color: #05344c;
+		  font-weight: 400;
+		}
+		
+		#programme .row h2{
+			color: #f4641c;
+		}
+		
+		#programme .row h3{
+			margin-bottom: 34px;
+		}
+	  
+.programmetable {
+	border-collapse: collapse;
+	color:#05344c;
+	margin-bottom: 50px;
+}
+
+	.programmetable p:last-child{
+		margin-bottom:0px !important;	
+	}
+
+	.programmetable a{
+		text-decoration: underline;
+	}
+	
+	.programmetable a:hover{
+		color: #05354d;
+	}
+	
+	.programmetable td {
+		border-right: 1px solid #CCC;
+		padding: 10px;
+		color:  #05354d;
+		vertical-align: top;
+	}
+
+		.programmetable td:first-child {
+			font-family:'Oswald', sans-serif;
+			font-weight:400;
+			font-size:18px;
+			text-align:center;
+			color:#FFF;
+			background-color:#f4641c;
+			padding:10px;
+			border-right:1px solid #fff;
+		}
+		
+		.programmetable td:last-child{
+			border-right: none;
+		}
+
+	.programmetable tr.break td{
+		text-align: center;
+		font-style: italic;
+		background-color:#ffd5c1;
+	}
+	
+		.programmetable tr.break td:first-child{
+			background-color:#f4641c;
+			font-style: normal;
+		}
+	
+	.programmetable tr.alt td{
+		background-color: #E5E5E5;
+	}
+	
+		.programmetable tr.alt td:first-child{
+			background-color: #d75311;
+		}
+	
+	.programmetable tr.altbreak td{
+		text-align: center;
+		font-style: italic;
+		background-color:#ffd5c1;
+	}
+	
+		.programmetable tr.altbreak td:first-child{
+			background-color:#d75311;
+			font-style: normal;
+		}
+	
+	.keynote {
+		text-align: center;
+		font-weight: 600;
+	}
+	
+	p.sessiontype{
+		font-size: 11px;
+		font-weight:600;
+		letter-spacing: .5px;
+		text-transform: uppercase;
+		line-height: 1.25em;
+		color:#555;
+		margin-bottom: 10px;
+	}
+	
+	p.sessiontitle{
+		font-family: 'Oswald', sans-serif;
+		font-weight:400;
+		font-size: 21px;
+		margin-bottom: 10px;
+	}
+	
+	p.speakername{
+		font-weight:300;
+		font-style: italic;
+		line-height: 1.25em;
+		margin-bottom: 10px;
+	}
+	
+	p.speakeraff{
+		font-size: 11px;
+		font-weight:400;
+		letter-spacing: .5px;
+		text-transform: uppercase;
+		line-height: 1.25em;
+		color:#555;
+		margin:-5px 0 10px 0;
+		}
+	
+	.programmetable p.buttonwrap{
+		    margin: 20px 0 !important;
+	}
+
+	.programmetable a.button{
+		font-family: 'Oswald', Sans-serif;
+	    font-weight: 300;
+	    text-transform: uppercase;
+	    text-decoration: underline;
+	    background-color: #f4641c;
+	    color: #FFF;
+	    font-size: 14px;
+	    padding:8px;
+	    border-radius: 6px;
+	    -moz-border-radius: 6px;
+	    -webkit-border-radius: 6px;
+	}
+	
+	.programmetable a.button:hover{
+		background-color:#d75311;
+	}
+	
+
+  /* Why Should You Go */
+  #benefits {
+    background-color: #f4641c;
+    padding-top: 40px;
+  }
+
+    #benefits h2.heading {
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+
+    #benefits p {
+      color: #000;
+      font-size: 18px;
+    }
+
+      #benefits ul {
+        margin-top: 40px;
+        list-style: none;
+      }
+
+        #benefits ul h3 {
+          display: inline;
+          font-family: 'Oswald', Sans-serif;
+          font-size: 40px;
+          color: #05344c;
+          font-weight: 300;
+          min-width: 145px;
+          float: left;
+          margin-top: 0;
+          text-align: right;
+          margin-right: 15px;
+        }
+
+        #benefits ul li {
+          overflow: hidden;
+          margin-bottom: 25px;
+        }
+
+        #benefits ul p {
+          width: 75%;
+          float: left;
+          font-size: 15.6px;
+          color: #fff;
+        }
+
+      #benefits a {
+        margin-top: 45px;
+        font-family: 'Oswald', Sans-serif;
+        font-size: 27.7px;
+        font-weight: 400;
+        color: #05344c;
+      }
+
+
+  #find-us {
+    background-color: #000;
+  }
+
+    #find-us h2 {
+      color: #f4641c;
+      font-weight: 400;
+    }
+
+    #find-us .details {
+      color: #fff;
+      margin-top: 30px;
+    }
+
+    #find-us .details a {
+      font-family: 'Oswald', Sans-serif;
+      font-size: 31.2px;
+      font-weight: 400;
+      color: #f4641c;
+    }
+
+    #find-us .offer {
+      margin-top: -20px;
+    }
+
+      #find-us .offer h5 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 38.5px;
+      }
+
+      #find-us .offer .price {
+        margin-top: 20px;
+      }
+
+/* Programme */ 
+
+#tickets h3 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#tickets p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Robot */
+  #robot {
+    background-color: #05344c;
+  }
+  
+  #robot h2{
+      color: #f4641c;
+  }
+
+  #robot p{
+	color:#fff;
+	font-size: 18px;	 
+ }
+
+
+/*** Main Content end ***/
+
+
+/* Footer */
+footer {
+  min-height: 200px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #E5E5E5;
+}
+
+footer div.container{
+	padding-top: 35px;
+}
+
+footer p {
+}
+
+footer .sponsors-img {
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+footer .sponsors {
+    margin-top: 10px;
+}
+
+footer .sponsors a {
+    color: #000;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* Common Styles */
+
+/* backgrounds */
+.b-orange {
+  background-color: #f4641c;
+}
+
+
+/* text */
+.t-white {
+  color: #fff;
+}
+
+.t-dark-blue {
+  color: #05344c;
+}
+
+.t-orange {
+  color: #f4641c;
+}
+
+.offer {
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 25px 40px;
+  background-color: #f4641c;
+  font-family: 'Oswald', Sans-serif;
+  text-align: center;
+  height: 275px;
+  width: 275px;
+
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+  .offer h5 {
+    font-family: 'Oswald', Sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 25px;
+    line-height: 36px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .offer .action {
+    font-family: 'Oswald', Sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    color: #545454;
+    font-size: 35.6px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-radius: 10px;
+  }
+
+  .offer .price {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Oswald', Sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+  }
+
+    .offer .price .addon {
+      font-size: 25px;
+    }
+
+
+  /* Diagnonal separators */
+  div.sep {
+    /*display: none;*/
+    /*width: 98%;*/
+    margin-bottom: -60px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+    hr.diag {
+      background-color: #fff;
+      height: 80px;
+      border: 0 !important;
+      margin-top: -40px;
+      padding: 0;
+      position: relative;
+    }
+
+    hr.diag:last-child {
+      margin-top: -30px;
+      height: 75px;
+    }
+
+    hr.diag.down {
+      width: 150%;
+      margin-left: -25%;
+      -moz-transform: rotate(2.5deg);
+           -o-transform: rotate(2.5deg);
+      -webkit-transform: rotate(2.5deg);
+          -ms-transform: rotate(2.5deg);
+              transform: rotate(2.5deg);
+
+                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104);
+             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
+                   zoom: 1;*/
+    }
+
+    hr.diag.up {
+      width: 150%;
+      margin-left: -25%;
+      -moz-transform: rotate(-2.5deg);
+           -o-transform: rotate(-2.5deg);
+      -webkit-transform: rotate(-2.5deg);
+          -ms-transform: rotate(-2.5deg);
+              transform: rotate(-2.5deg);
+                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104);
+             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
+                   zoom: 1;*/
+    }
+
+
+ /* hr.diag:before, hr.diag:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+  }
+
+  hr.diag:before, hr.diag:before {
+    right: 100%;
+  }
+
+  hr.diag:after, hr.diag:after {
+    left: 100%;
+  }   */
+
+  /* colors */
+  hr.diag.orange {
+    background-color: #F4641C;
+  }
+
+    hr.diag.orange:before, hr.diag.orange:before,
+    hr.diag.orange:after, hr.diag.orange:after {
+      background-color: #F4641C;
+    }
+
+  hr.diag.white {
+    background-color: #fff;
+  }
+
+    hr.diag.white:before, hr.diag.white:before,
+    hr.diag.white:after, hr.diag.white:after {
+      background-color: #fff;
+    }
+
+  hr.diag.black {
+    background-color: #000;
+  }
+
+    hr.diag.black:before, hr.diag.black:before,
+    hr.diag.black:after, hr.diag.black:after {
+      background-color: #000;
+    }
+
+  hr.diag.lightgray {
+    background-color: #E5E5E5;
+  }
+
+    hr.diag.lightgray:before, hr.diag.lightgray:before,
+    hr.diag.lightgray:after, hr.diag.lightgray:after {
+      background-color: #E5E5E5;
+    }
+
+  hr.diag.darkblue {
+    background-color: #05344c;
+  }
+
+    hr.diag.darkblue:before, hr.diag.darkblue:before,
+    hr.diag.darkblue:after, hr.diag.darkblue:after {
+      background-color: #05344c;
+    }
+
+  #contact + .sep {
+  }
+
+  #contact + .sep .hr {
+    width: 100%;
+    position: absolute;
+    z-index: 1000000;
+  }
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+/* Marek messing with the layout */
+
+.offer-row {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.speaker .header {
+	width: 100%;
+}
+
+.speaker .header img {
+	height: 442px;
+	width: 1000px;
+}
+
+
+@media (min-width: 900px) {
+	.speaker .header .title-and-booklet {
+		position: absolute;
+		top: 20px;
+		right: 50px;
+	}
+}
+
+.speaker .header .title-and-booklet{
+	width: 50%;
+}
+
+.speaker .header h1 {
+	color: #f15a24;
+	font-size: 4em;
+	line-height: 1.2em;
+	text-align: center;
+	font-family: 'Oswald', Sans-serif;
+	margin:.5em 0;
+}
+
+
+.speaker .header .booklet {
+/* 	position: relative; */
+/* 	left: 120px; */
+	margin: 0 auto;
+}
+
+.booklet {
+	width: 260px;
+	height: 260px;
+	background-color: #05344c;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.booklet a {
+	position: relative;
+	top:90px;
+	color: #FFF;
+	text-transform: uppercase;
+	background:#f15a24;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Oswald', Sans-serif;
+	padding: 8px 10px;
+	border-radius: 5px;
+}
+
+.booklet.full a {
+	width: 150px;
+	display: inline-block;
+	top: 75px;
+	left: 60px;
+}
+
+.booklet a:hover {
+  text-decoration: none;
+  color:#f15a24;
+  background: #fff;
+  
+}
+
+.booklet div {
+	position: relative;
+	top: 110px;
+	color: white;
+	font-size: 1.25em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.speaker .description {
+	background:#E5E5E5;
+	padding: 2em 0;
+}
+
+.speaker .description p:first-of-type:first-letter {
+	font-weight: 500;
+	color: #f15a24;
+	font-size: 2em;
+}
+
+.speaker .description p {
+	color: black;
+	font-size: 1.25em;
+	line-height: 1.75em;
+	margin-top: 2em;
+	margin-left: 23%;
+	margin-right: 22%;
+	width: 55%;
+}
+
+.speaker .description p.rightindent{
+	padding-right: 13%
+}
+
+.speaker .description ul {
+	width: 50%;
+	list-style: none;
+	margin-left: 25%;
+	margin-right: 20%;
+	margin-top:30px;
+	font-family: 'Oswald', Sans-serif;
+	font-weight: 200;
+	font-size: 1.6em;
+	line-height: 1.5em;
+}
+
+.speaker .description li {
+	padding-left: 1em;
+	text-indent: -.7em;
+}
+
+.speaker .description li:before {
+	font-size: 1.5em;
+	content: "• ";
+	color: #f15a24;
+	line-height: 1.4em;
+}
+
+.speaker div.booking-info{
+	padding:5em 22%;
+	background-color: #F4641C;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25em;
+	font-weight: 300;
+}
+
+.speaker .booking-info > div {
+	font-size: 1.5em;
+	display: inline-block;
+	width: 69%;
+}
+
+.speaker .booking-info .book-now {
+	position: relative;
+	top: -35px;
+	right:0;
+	width: 30%;
+	text-align: center;
+	float:right;
+}
+
+.speaker .booking-info .book-now.full {
+	top: -130px;
+	right: 16%;
+	width: 250px;
+}
+
+.speaker .booking-info .book-now a:hover {
+	text-decoration: none;
+}
+
+.speaker .booking-info .book-now a {
+	font-family: 'Oswald', Sans-serif;
+	text-transform: uppercase;
+	color: black;
+}
+
+.speaker .booking-info .book-now a.button {
+	background: #fff;
+	border-radius: 5px;
+	color:#f15a24;
+	padding: 10px;
+	font-size: 1.25em;
+	line-height: 2.5em;
+}
+.speaker .booking-info .book-now a:hover.button {
+	text-decoration: underline;
+}
+
+.speaker .about {
+	background: #05344c;
+	padding:2em 0;
+}
+
+.speaker .about h2{
+	font-family: 'Oswald', Sans-serif;
+	font-size: 3em;
+	color: #f15a24;
+	margin-left: 23%;
+	margin-right: 22%;
+	width: 55%;
+
+}
+
+.speaker .about p {
+	font-size: 1.25em;
+	line-height: 1.75em;
+	margin-top: 2em;
+	margin-left: 23%;
+	margin-right: 22%;
+	width: 55%;
+	color: white;
+}
+
+.about img {
+	max-width: 300px;
+	height: auto;
+}
+
+@media (min-width: 900px) {
+	.speaker .img {
+		margin-top: 12em;
+	}
+}
+
+img.circular {
+  max-width: 100%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 8px solid #FBF3E6;
+}
+
+h3.location {
+  text-align:center;
+  color: white;
+  font-size: 3em;  
+}
+
+h3.location a{
+  color: white;
+  text-decoration:underline;
+}
+
+h3.location a:hover{
+  color: white;
+  text-decoration:none;  
+}

@@ -1,0 +1,483 @@
+/* Main Stylesheet */
+
+/* Contents
+
+01 :: Common Styles
+02 :: Typography
+03 :: Colours
+04 :: Navigation
+05 :: Structure & Grid
+06 :: Site Sections
+		:Home:
+		:Thanks:
+		:Archive:
+		:2015:
+07 :: Buttons
+08 :: Roundals 
+09 :: Utilities
+		(dividers etc)
+10 :: Misc Foundation fixes 
+11 :: Media Queries */
+
+
+/* 01 :: Common Styles */
+body {
+  font-family: Verdana, Sans-serif, Tahoma;
+}
+
+a {
+  -webkit-transition:color .2s ease-out, background .5s ease-in;
+  -moz-transition:color .2s ease-out, background .5s ease-in;
+  -ms-transition:color .2s ease-out, background .5s ease-in;
+  /* CSS3 */
+  -o-transition:color .2s ease-out, background .5s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background .5s ease-in;
+  text-decoration: underline;
+}
+
+a:hover{
+	color: inherit;
+	text-decoration: none;
+}
+
+
+
+/* 02 :: Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #05344c;
+    font-weight: 700;
+    font-family: 'Oswald', Sans-serif;
+    letter-spacing: .05rem;
+}
+
+p.large{
+	margin: 3rem 0;
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+
+p.medium{
+	margin: 1.5rem 0;
+	font-size: 1.15rem;
+	line-height: 1.5rem;
+}
+
+p.small{
+	font-size: .8rem;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.roman {
+	font-weight: 400;
+}
+
+.light {
+	font-weight: 300;
+}
+
+/* 03 :: Colours */
+
+.orange{
+	color:#F4641C;
+}
+
+.orange_bg{
+	background-color: #F4641C;
+}
+
+a.orange_bg:hover{
+	background-color: #05344c;
+	color:#f2f2f2;
+}
+
+.blue{
+	color:#05344c;
+}
+
+.blue_bg{
+	background-color:#05344c;
+}
+
+a.blue_bg:hover{
+	background-color:#F4641C;
+	color:#05344c;
+}
+
+.black{
+	color:#000;
+}
+
+.black_bg{
+	background-color:#000;
+}
+
+.white{
+	color: #fff;
+}
+
+a.white:hover{
+	color: #fff;
+}
+
+.white_bg{
+	background-color: #fff;
+}
+
+.lightgrey{
+	color:#f2f2f2;
+}
+
+.lightgrey_bg{
+	background-color:#f2f2f2;
+}
+
+a.lightgrey_bg{
+	color: #05344c;
+	background-color:#f2f2f2;
+}
+
+a.lightgrey_bg:hover{
+	color:#f2f2f2;
+	background-color: #05344c;
+}
+
+/* 04 :: Navigation */
+
+#nav{
+	background: #e5e5e5 !important;
+	padding: 0;
+}
+
+#nav .row{
+	padding:0;
+	margin-bottom: 0;
+}
+
+
+.top-bar{
+	margin: 0rem;
+/* 	padding: 1rem; */
+	background: #e5e5e5;
+/* 	color: #05344c; */
+	letter-spacing: 0.05em;
+	height: auto;
+}
+	
+	.top-bar-section{
+		padding: 0;
+	}
+
+	.top-bar-section ul{
+		margin-left: 0rem;
+		
+	}
+	
+	.top-bar-section ul li {
+		display: inline;
+		float: left;
+		margin-bottom: 0rem;
+		margin-left: 0rem;
+		background: #e5e5e5 !important;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: normal;
+		font-size: .9rem;}
+			.top-bar-section ul li > a {
+				padding: .5rem .75rem !important;
+				margin-bottom: 0rem;
+				margin-left: 0rem;
+				color: #05344c !important;
+				background: #e5e5e5 !important;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				font-weight: normal;
+				font-size: .9rem;
+				text-decoration: none; 
+				font-family: 'Oswald', sans-serif !important; }
+					.top-bar-section ul li > a:hover {
+						background: #EFEFEF !important; }
+							.top-bar-section ul li.active > a {
+/* 								padding: 1rem 1rem !important; */
+								border-radius: 0px;
+								background: #EFEFEF !important;
+								color: #05344c;
+								font-weight: normal;
+								cursor: default; }
+									.top-bar section li.active > a:hover {
+										background: #EFEFEF !important; }
+
+.sticky{
+	background: #e5e5e5;
+}        
+       
+/* 05 :: Structure & Grid */
+
+
+
+/* 06 :: Site Sections */
+
+section{
+	padding: 3rem 0;
+}
+
+section .row{
+	margin-bottom: 2rem;
+}
+
+section .row:last-child{
+	margin-bottom: 0;
+}
+
+/* :Home */
+
+#home{
+	padding-top: 3rem;
+}
+
+h1#logo {
+	margin-left: 1rem;
+	font-weight: 400;
+	font-size: 5.5rem;
+}
+
+h1#logo sub {
+	top: 3px;
+	margin-left: -1rem;
+	font-size: 4rem;
+	font-family:'Avenir LT W01 55 Roman';
+}
+
+h1#logo .sub   {
+	display: block;
+	margin-top: -2.5rem;
+	margin-left: -1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-size: 1.65rem;
+	font-family:'Avenir LT W01 55 Roman';
+}
+
+/* :Award */
+
+#award .roundal .button:hover{
+	color:#05344c;
+	background-color: #fff;
+}
+
+#award ul{
+	margin-bottom: 2rem;
+}
+
+#award li{
+	font-size: .9rem;
+	margin-bottom: .75rem;
+}
+
+/* :Subscribe */
+
+#subscribe input{
+	font-size: 1.25rem;
+	height: 4rem;
+	margin-bottom: 2rem;
+}
+
+#subscribe .button{
+	font-size: ;
+}
+
+#subscribe .button:hover {
+	color: #05344c;
+	background-color:#FFF; 
+}
+
+/* :Footer */
+
+#footer img{
+	margin-bottom: 1rem;
+}
+
+#footer .button{
+	padding: .5rem 1rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .05rem
+}
+
+#footer .button:hover {
+	background-color:#05344c; 
+}
+
+#footer a:hover{
+	color:#05344c;
+}
+
+/* 07 :: Roundals */
+
+div.roundal{
+	display: inline-block;
+	position: relative;
+/* 	top:-40px; */
+	margin: 0px auto 40px;
+	padding: 3rem;
+/* 	font-family: 'Oswald', Sans-serif; */
+	text-align: center;
+	height: 275px;
+	width: 275px;	
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+div.roundal p{
+	margin-top: 1.75rem;
+}
+
+.shiftup{
+	top:-60px;
+}
+
+.toplayer{
+	z-index: 99999;
+}
+
+/* 08 :: Buttons */
+
+.button{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	padding: 1.25rem 1.5rem;
+}
+
+.radius{
+	border-radius: .5rem !important;
+}
+
+
+/* 09 :: Utilities */
+
+/* Diagonal HR Classes */
+div.sep {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: -60px;
+}
+
+hr.diag {
+      position: relative;
+      margin-top: -40px;
+      padding: 0;
+      height: 80px;
+      border: 0 !important;
+    }
+
+    hr.diag:last-child {
+      margin-top: -30px;
+      height: 75px;
+    }
+
+    hr.diag.down {
+      margin-left: -25%;
+      width: 150%;
+      -webkit-transform: rotate(2.5deg);
+      -moz-transform: rotate(2.5deg);
+          -ms-transform: rotate(2.5deg);
+           -o-transform: rotate(2.5deg);
+              transform: rotate(2.5deg);
+
+                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104);
+             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
+                   zoom: 1;*/
+    }
+
+    hr.diag.up {
+      margin-left: -25%;
+      width: 150%;
+      -webkit-transform: rotate(-2.5deg);
+      -moz-transform: rotate(-2.5deg);
+          -ms-transform: rotate(-2.5deg);
+           -o-transform: rotate(-2.5deg);
+              transform: rotate(-2.5deg);
+                 /*filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+                          M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104);
+             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
+                   zoom: 1;*/
+    }
+    
+/* Diagonal HR Classes */
+
+img {
+	margin-bottom: 2rem;
+}
+
+/* 10 :: Misc Foundation fixes */
+
+/* :Forms */
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+	  box-shadow:none;
+}
+
+
+input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  textarea:focus {
+    box-shadow: none;
+    border-color: #f4641c; 
+    background-color: #fff;
+    }
+
+/* 10 :: Misc Foundation fixes */
+
+@media only screen and (max-width: 40.063em) {
+
+	div.roundal{
+		display: inline-block;
+		position: relative;
+		margin: 40px auto 40px;
+		left:40px;
+		padding: 3rem;
+		text-align: center;
+		height: 275px;
+		width: 275px;	
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
+	.shiftup{
+		top:0px;
+	}
+	
+	.toplayer{
+	z-index: 0 !important;
+	}
+}
