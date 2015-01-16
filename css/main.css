@@ -42,7 +42,6 @@ a:hover{
 }
 
 
-
 /* 02 :: Typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -214,6 +213,18 @@ a.lightgrey_bg:hover{
 								cursor: default; }
 									.top-bar section li.active > a:hover {
 										background: #EFEFEF !important; }
+			.top-bar-section ul li > a.blue_bg{
+				color:#FFF !important;
+				background-color:#05344c !important;}
+					.top-bar-section ul li > a.blue_bg:hover{
+					color:#FFF !important;
+					background-color:rgba(5, 53, 77, 0.8) !important;}
+						.top-bar-section ul li.active > a.blue_bg{
+							color:#FFF !important;
+							background-color:rgba(5, 53, 77, 0.8) !important;}
+								.top-bar-section ul li.active > a.blue_bg{
+									color:#FFF !important;
+									background-color:rgba(5, 53, 77, 0.6) !important;}
 
 .sticky{
 	background: #e5e5e5;
@@ -319,6 +330,14 @@ h1#logo .sub   {
 #footer a:hover{
 	color:#05344c;
 }
+
+/* Topics */
+
+#topics li{
+	margin-bottom: 1em;}
+		#topics li:last-child{
+			list-style-type: none;
+			text-align: center;}
 
 /* 07 :: Roundals */
 
